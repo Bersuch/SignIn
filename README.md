@@ -1,4 +1,4 @@
-# SignIn
+# Sign In
 
 A Sign In Page written in HTML, CSS and jQuery. 
 Currently looking like this..
