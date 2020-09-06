@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: helvetica, sans-serif;
+    font-size: 180%;
+    background: radial-gradient(#9198e5, #000f1c);
+}
+
+input {
+    padding: 5px 5px 15px 5px;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 3px;
+    width: 280px;
+    background: rgb(84,87,116);
+    background: linear-gradient(90deg, rgba(84,87,116,1) 0%, rgba(84,87,116,1) 100%);
+}
+
+input::placeholder {
+    color: grey;
+    font-family: sans-serif;
+    width: 30px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+
+#wrapper {
+    width: 350px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 8px;
+    background: rgb(119, 121, 143);
+    background: linear-gradient(90deg, rgba(119, 121, 143, 1) 0%, rgba(84, 87, 116, 1) 100%);
+
+}
+
+h3 {
+    font-family: helvetica, sans-serif;
+    position: relative;
+    top: 3%;
+    left: 24%;
+    color: white;
+}
+
+.form-element {
+    margin-bottom: 10px;
+}
+
+#submit-button {
+    width: 120px;
+    height: 30px;
+    top: 80%;
+    left: 25%;
+    background: rgba(10, 10, 10, 0.2);
+    border: 1px solid white;
+    color: white;
+    position: fixed;
+}
+
+#errorMessage {
+    color: red;
+    font-size: 110% !important;
+}
+
+#successMessage {
+    color: green;
+    display: none;
+}
